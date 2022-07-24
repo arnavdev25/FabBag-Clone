@@ -1,0 +1,324 @@
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title,
+.MainSlider {
+  background-image: url("https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Homepage-Banner-bAG-Reveal-Recovered-2_2048x.gif?v=1656613045");
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  object-position: 70% auto;
+  background-position: center top;
+  background-size: cover;
+}
+
+.h3 {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.h3 h3 {
+  border-bottom: 2px double #e5b95f;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  /* font-family: roboto; */
+  font-size: 36px;
+  line-height: 36px;
+  color: #222;
+  display: inline-block;
+  /* font-family: poppins; */
+  margin-bottom: 30px;
+  letter-spacing: -0.5px;
+  font-weight: 500;
+}
+
+.beauty {
+  width: 100%;
+  left: 0px;
+  display: block;
+  transition: all 0ms ease 0s;
+  transform: translate3d(0px, 0px, 0px);
+  display: flex;
+  gap: 10px;
+}
+
+.beauty > div {
+  width: 340px;
+  padding: 0px 10px 0px 10px;
+  text-align: center;
+  font-family: roboto;
+}
+
+.beauty img {
+  width: 100%;
+  border-radius: 50px;
+  border: 3px solid #e5b95f;
+  padding: 3px;
+}
+
+.beauty img:hover {
+  transition: all 0.4s ease-in-out 0s;
+  opacity: 0.5;
+}
+
+.beauty h5 {
+  color: #000000;
+  /* margin-bottom: 20px; */
+  margin-top: 9px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.subscription {
+  width: 50%;
+  margin: auto;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+.subscription > div {
+  width: 50%;
+}
+
+.subscription > div > div {
+  border: 1px solid #dfe4e6;
+  padding: 17px;
+  text-align: center;
+  font-family: Poppins;
+}
+
+.subscription h4 {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: inherit;
+}
+
+.subscription p {
+  margin-top: -19px;
+}
+
+.subscription > div > div:nth-child(3) {
+  padding-bottom: 200px;
+}
+
+.subscription > div > div:nth-child(3) p {
+  margin-top: 20px;
+}
+
+.subscription > div > div:nth-child(3) h4 {
+  margin-top: -11px;
+}
+
+.subscription > div > div:last-child {
+  width: 100%;
+  background-color: #e5b95f;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.subscription button {
+  width: 100%;
+  padding: 10px;
+  background-color: #e5b95f;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  border-radius: 4px;
+  font-weight: 700;
+  padding: 8px 0 8px 0;
+  cursor: pointer;
+}
+
+.subscription button:hover {
+  color: #333;
+}
+
+.prev {
+  display: grid;
+  grid-template-columns: repeat(4, 23%);
+  gap: 25px;
+  margin: 30px auto;
+  width: 75%;
+}
+
+.prev > div {
+  height: 250px;
+  cursor: pointer;
+}
+
+.prev img {
+  width: 100%;
+  height: 165px;
+  background: rgba(164, 153, 201, 0);
+  opacity: 0.8;
+}
+
+.prev h3 {
+  font-weight: 400;
+  margin-top: 20px;
+  text-align: left;
+  font-size: 15px;
+  color: #222222;
+  font-size: Poppins;
+}
+
+.prev p {
+  margin-top: -5px;
+  color: #999999 !important;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.prev span {
+  font-style: italic;
+}
+
+.trend p {
+  font-size: 20px;
+  font-family: Helvetica;
+  text-align: center;
+}
+
+.trend > div {
+  display: flex;
+  width: 100%;
+  left: 0%;
+  right: 0%;
+}
+
+.trend img {
+  width: 12.5%;
+  height: 160px;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+.trend img:hover {
+  opacity: 0.5;
+}
+
+.slido {
+  background-color: #e5b95f;
+  margin: 50px 0 50px 0;
+  width: 100%;
+  padding: 30px 0px;
+}
+
+.slido > div {
+  width: 75%;
+  margin: auto;
+}
+
+.brandimg {
+  margin: 20% auto;
+  width: 50%;
+  height: 100px;
+  border: 2px solid #222222;
+  border-radius: 10px;
+
+  background-color: #ffffff;
+}
+
+.test {
+  font-size: 14px;
+  color: #333;
+  line-height: 22px;
+  box-sizing: border-box;
+  font-family: poppins;
+  box-sizing: border-box;
+  margin: 10px 0px 0px 0px;
+  padding: 10px;
+  background: url(//cdn.shopify.com/s/files/1/0052/7551/6995/files/Testimonial-Final_2048x.png?v=1548829465);
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.test .quote {
+  margin: 20px auto;
+}
+
+@media all and (min-width: 391px) and (max-width: 781px) {
+  .h3 {
+    width: 80%;
+  }
+
+  .subscription {
+    width: 65%;
+  }
+
+  .prev {
+    width: 90%;
+    grid-template-columns: repeat(2, 50%);
+  }
+
+  .trend img {
+    height: 120px;
+  }
+}
+
+@media all and (min-width: 51px) and (max-width: 391px) {
+  .MainSlider {
+    background-size: auto;
+    background-position: 45% top;
+  }
+
+  .h3 {
+    width: 95%;
+    /* background: #000; */
+  }
+
+  .subscription {
+    width: 90%;
+    margin: auto;
+  }
+
+  .subscription > div {
+    width: 90%;
+  }
+
+  .prev {
+    width: 90%;
+    grid-template-columns: repeat(1, 90%);
+  }
+
+  .trend img {
+    height: 90px;
+  }
+}

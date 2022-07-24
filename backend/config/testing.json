@@ -1,0 +1,5 @@
+{
+  "db": {
+    "url": "mongodb://test.atlast.com/testdb"
+  }
+}

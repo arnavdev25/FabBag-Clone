@@ -1,0 +1,136 @@
+.footermaincont {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.footermaincont > p {
+  color: #7d7d7d;
+  line-height: 30px;
+  text-align: center;
+  margin: 40px;
+  padding-bottom: 30px;
+}
+.footerContainer {
+  width: 90vw;
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(3, 1fr);
+}
+.footerContainer > div > ul > li {
+  list-style: none;
+  font-size: 14px;
+  color: #7d7d7d;
+  line-height: 30px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.5s;
+  letter-spacing: 0.5px;
+}
+.footerContainer > div > ul > li:hover {
+  color: #e5b95f;
+}
+.enum {
+  -webkit-transition: 0.3s;
+  transition: 0.5s;
+}
+.enum:hover {
+  color: #e5b95f;
+  cursor: pointer;
+}
+.footerContainer > div > h5 {
+  font-size: 15px;
+  font-weight: 400;
+  color: #7d7d7d;
+}
+.footerContainer > div > h5 > b {
+  font-weight: 600;
+}
+.footerContainer > div > p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #7d7d7d;
+  line-height: 30px;
+}
+.footerContainer > div > input {
+  width: 210px;
+  margin-right: 15px;
+}
+.footerContainer > div > input,
+.footerContainer > div > button {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.footerContainer > div > input:focus {
+  outline: 1px solid #e5b95f;
+}
+.footerContainer > div > button {
+  padding: 10px 15px;
+  color: white;
+  background-color: #e5b95f;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  -webkit-transition: 0.3s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.footerContainer > div > button:hover {
+  background-color: #252525;
+}
+.footerH3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #222222;
+}
+.socialmedia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.socialmedia > div {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #f3f3f3;
+  cursor: pointer;
+}
+.sociallogo {
+  fill: #7d7d7d;
+  height: 15px;
+}
+.facebook:hover,
+.facebook:hover > svg {
+  background-color: #337ab7;
+  fill: white;
+}
+.twitter:hover,
+.twitter:hover > svg {
+  background-color: #1c9cea;
+  fill: white;
+}
+.youtube:hover,
+.youtube:hover > svg {
+  background-color: #f70000;
+  fill: white;
+}
+.insta:hover,
+.insta:hover > svg {
+  fill: white;
+  background: linear-gradient(
+    45deg,
+    #405de6,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d
+  );
+}

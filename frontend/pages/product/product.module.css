@@ -1,0 +1,120 @@
+.pmain{
+    /* border:2px solid black; */
+    width:80%;
+    margin:auto;
+    margin-top: 10px;
+    padding:20px;
+    display: grid;
+    grid-template-columns: 39% 58%;
+    grid-template-rows: 400px;
+    gap:10px;
+}
+.pmain>div{
+    /* border: 2px solid black; */
+    padding: 10px;
+}
+.pmain>div img{
+    width:100%;
+    height:100%;
+}
+.pmain>div h1{
+    font-weight: 500;
+}
+.pmain>div button{
+    width:100%;
+    height:50px;
+    color: white;
+    background-color: black;
+    margin: auto;
+    font-weight: bolder;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.qty{
+    width:25%;
+    height:70px;
+    /* border:1px solid black; */
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.qty p{
+    font-size: 25px;
+}
+.picons{
+    color:#999999;
+    cursor: pointer;
+}
+.pcions:hover{
+    color:#e5b95f;
+}
+.pbody{
+    /* border:2px solid black; */
+    width:60%;
+    margin:auto;
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 90%;
+    grid-template-rows: 50px 900px;
+    gap:10px;
+    padding-top: 30px;
+}
+.pbody>div{
+    /* border:2px solid black; */
+    margin-left: 100px;
+    padding:10px;
+}
+.pbuttons{
+    display:flex;
+    justify-content: space-around;
+}
+.bttn{
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    height:60px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.psub{
+    display:grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 100px 100px 250px 100px;
+    /* border:2px solid black; */
+    padding:10px;
+}
+.psub>div{
+    border: 2px solid black;
+    text-align: center;
+}
+.gg{
+    background-color: #e5b95f;
+    color:white;
+    border:1px solid white;
+}
+.gg>button{
+    width:90%;
+    height:30px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.g{
+    color:#e5b95f;  
+}
+.bttn:hover{
+    background-color: #e5b95f;
+}
+.picons:hover{
+    color: #e5b95f;
+}
